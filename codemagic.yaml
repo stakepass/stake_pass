@@ -4,15 +4,15 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: Codemagic2
+      app_store_connect: StakePass
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.pinco.game
+        bundle_identifier: emirhan.stake.pass
       vars:
-        BUNDLE_ID: "com.pinco.game"
-        XCODE_WORKSPACE: "Pinco Game.xcworkspace" # <-- Put the name of your Xcode workspace here
-        XCODE_SCHEME: "Pinco Game" # <-- Put the name of your Xcode scheme here
+        BUNDLE_ID: "emirhan.stake.pass"
+        XCODE_WORKSPACE: "Stake Pass.xcworkspace" # <-- Put the name of your Xcode workspace here
+        XCODE_SCHEME: "Stake Pass" # <-- Put the name of your Xcode scheme here
         APP_STORE_APPLE_ID: 6677027494
       xcode: latest
       cocoapods: default
