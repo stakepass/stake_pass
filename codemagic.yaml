@@ -13,7 +13,7 @@ workflows:
         BUNDLE_ID: "emirhan.stake.pass"
         XCODE_WORKSPACE: "Stake Pass.xcworkspace" # <-- Put the name of your Xcode workspace here
         XCODE_SCHEME: "Stake Pass" # <-- Put the name of your Xcode scheme here
-        APP_STORE_APPLE_ID: 6677027494
+        APP_STORE_APPLE_ID: 6737360010
       xcode: latest
       cocoapods: default
     scripts:
